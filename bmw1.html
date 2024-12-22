@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="HTML,CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FWS PROJECT TEAM-8</title>
+  <style>
+   
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+   
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f5f5;
+      
+    }
+
+    .header .logo {
+      font-size: 25px;
+      font-family: 'Sriracha', cursive;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f5f5f5;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+
+   
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://imgd.aeplcdn.com/476x268/n/cw/ec/128700/k-1600-left-side-view.gif?isig=0");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+
+    .intro button {
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+    .intro a{
+        background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+      text-decoration: none;
+      font-size: 18px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .achievements {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+
+    .achievements .work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .achievements .work i {
+      width: fit-content;
+      font-size: 50px;
+      color: #333333;
+      border-radius: 50%;
+      border: 2px solid #333333;
+      padding: 12px;
+    }
+
+    .achievements .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .achievements .work .work-text {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    .about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-me img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-me-text h2 {
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .about-me-text p {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #302f49;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">2.Bayerische Motoren Werk</a>
+    <nav class="nav-items">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#"target="_blank">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h1>BMW</h1>
+      <p>Since 1916</p>
+      <a href="https://www.bikewale.com/bmw-bikes/"target="_blank">LEARN MORE</a>
+      
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-atom"></i>
+        <p class="work-heading">Started</p>
+        <p class="work-text">Company started on 1916.<br>Located at  Munich, Germany,</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading">Launched In India</p>
+        <p class="work-text">In January 2006, launched BMW India and started selling motorcycles there in 2007.</p>
+      </div>
+      
+    </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>Founders</h2>
+        <p>It originated in 1916 as Bayerische Flugzeug-Werke, a builder of aircraft engines, but assumed the name Bayerische Motoren Werke in July 1917 and began producing motorcycles in the 1920s. BMW entered the automobile business in 1928. The company’s R32 motorcycle set a world speed record that was not broken until 1937. During World War II BMW built the world’s first jet airplane engines, used by the Luftwaffe, Germany’s air force.
+        <h5><h4>Founders Name:</h4>Camillo Castiglioni Franz Josef Popp Karl Rapp.</p></h5>
+      </div>
+      <img src="https://images.successstory.com/adminimg/image_uploads/content_images/bmw-founders_1457441312.jpg"><br>
+    </div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-6VSsYYxusV3lcd6I3Zi_4LUdCb3a2I3awEAhlQ4WoXw76bcdpClwRfO16jWYG1HNskI&usqp=CAU" width="500px">
+    <h1 style="text-decoration:underline;">BMW Demo Videos:</h1>
+    <a href="https://youtu.be/jxvrjlTpl_4"target="blank"><h2>s 1000RR</h2></a>
+    <a href="https://youtube.com/shorts/B6f8eofRGDc?feature=share"target="blank"><h2>GS 12550 </h2></a>
+    <a href="https://youtube.com/shorts/hq0shBwv6Sg?feature=share"target="blank"><h2>R 1250 GSA</h2></a>
+    <a href="bmw.html"><h2>G 310 R</h2></a>
+    <a href="https://www.91wheels.com/bikes/upcoming-bmw-bikes"> <h1>upcoming bike</h1></a>
+   
+  </main>
+  <footer class="footer">
+    <div class="copy">&copy;Our First Website</div>
+    <div class="bottom-links">
+      <div class="links">
+        <table><ul><tr>
+        <span>More Info</span></tr> 
+        <tr><a href="#">Home</a></tr>
+        <tr><a href="#">About</a></tr>
+        <tr><a href="#"target="_blank">Contact</a></tr></ul></table>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

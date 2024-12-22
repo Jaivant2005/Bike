@@ -1,0 +1,8 @@
+container{
+    width:100%;
+    height: 100vh;
+    background-image: url("https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg");
+    background-size: cover;
+    background-image: center;
+    padding: 20px 10%;
+}
